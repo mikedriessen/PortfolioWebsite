@@ -21,6 +21,18 @@ body {
     flex-direction: column;
     align-items: center;
 }
+#SkillBar
+.skill-mf .progress {
+  background-color: #d7ebf8;
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #48abec;
+}
 #spinner {
     animation: rotate 0.56s infinite linear;
     width:50px;
