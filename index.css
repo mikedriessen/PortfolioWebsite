@@ -236,6 +236,11 @@ body {
     transition:0.4s ease-in-out;
 }
 .btn_one:hover {
+	transform: skewX(25deg);
+  transform: skewY(10deg);
+  transform: skew(25deg, 10deg);
+	transition: transform 1s;
+	transform: skewX(-20px);
     cursor:pointer;
     color:rgb(255, 50, 50);
     background:#fff;
