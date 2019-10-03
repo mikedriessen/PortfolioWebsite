@@ -177,13 +177,13 @@ body {
 }
 .social:hover { 
     cursor: pointer;
-    color:rgb(255, 50, 50);
+    color:rgb(255, 50, 50, 0.5);
 }
 .container {
     width:90vw;
     height:90vh;
     padding:5vh 5vw;
-    background:rgb(255, 50, 50);
+    background:rgb(255, 50, 50, 0.5);
     color:#fff;
     z-index:9;
     position:fixed;
