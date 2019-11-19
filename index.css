@@ -21,6 +21,88 @@ body {
     flex-direction: column;
     align-items: center;
 }
+#progress {
+    background: #333;
+    border-radius: 13px;
+    height: 20px;
+    width: 300px;
+    padding: 3px;
+}
+
+#progress:after {
+    content: '';
+    display: block;
+    background: orange;
+    width: 90%;
+    height: 100%;
+    border-radius: 9px;
+}
+#progress2 {
+    background: #333;
+    border-radius: 13px;
+    height: 20px;
+    width: 300px;
+    padding: 3px;
+}
+
+#progress2:after {
+    content: '';
+    display: block;
+    background: orange;
+    width: 80%;
+    height: 100%;
+    border-radius: 9px;
+}
+#progress3 {
+    background: #333;
+    border-radius: 13px;
+    height: 20px;
+    width: 300px;
+    padding: 3px;
+}
+
+#progress3:after {
+    content: '';
+    display: block;
+    background: orange;
+    width: 40%;
+    height: 100%;
+    border-radius: 9px;
+	
+}
+#progress4 {
+    background: #333;
+    border-radius: 13px;
+    height: 20px;
+    width: 300px;
+    padding: 3px;
+}
+
+#progress4:after {
+    content: '';
+    display: block;
+    background: orange;
+    width: 40%;
+    height: 100%;
+    border-radius: 9px;
+}
+#progress5 {
+    background: #333;
+    border-radius: 13px;
+    height: 20px;
+    width: 300px;
+    padding: 3px;
+}
+
+#progress5:after {
+    content: '';
+    display: block;
+    background: orange;
+    width: 60%;
+    height: 100%;
+    border-radius: 9px;
+	
+}
 #SkillBar
 .skill-mf .progress {
   background-color: #d7ebf8;
