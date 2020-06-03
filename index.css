@@ -10,16 +10,6 @@ body {
     overflow:hidden;
     font-family: 'Josefin Sans', sans-serif;
 }
-div {
-  width: 80px;
-  height: 80px;
-  background-color: skyblue;
-}
-
-#scaled {
-  transform: scale(0.7); /* Equal to scaleX(0.7) scaleY(0.7) */
-  background-color: pink;
-}
 
 #loading {
     width: 100vw;
