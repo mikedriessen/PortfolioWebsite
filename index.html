@@ -76,22 +76,11 @@
 			 <!-- Use it like any other HTML element -->
 		     <model-viewer src="Models/KaiserVR_Web.glb" alt="A 3D model" auto-rotate camera-controls></model-viewer>
 			  </div>
+			  <model-viewer camera-controls skybox-image="../Models/Background/sunflowers_1k.hdr" 
+			  alt="An unlit 3D astronaut model depicted within a forest" src="../Models/KaiserVR_Web.glb">
+			  </model-viewer>
 			   <div id="used">
-			   <model-viewer camera-controls id="shadow-intensity-demo" shadow-intensity="0" shadow-softness="0" environment-image="../Models/Background/sunflowers_1k.hdr" alt="A 3D model of a sphere reflecting a forest with varying shadow intensity" src="Models/KaiserVR_Web.glb"></model-viewer>
-<script>
-(() => {
-  const modelViewer = document.querySelector('#shadow-intensity-demo');
-  const time = performance.now();
 
-  const animate = (now) => {
-    modelViewer.shadowIntensity = oscillate(0, 2, 4000, now - time);
-    requestAnimationFrame(animate);
-  };
-
-  animate();
-})();
-</script>
-			    </div>
         </section>
     </div>
     <div id="about_container" class="container">
